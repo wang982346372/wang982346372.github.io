@@ -1,418 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-  <meta charset="utf-8">
-  
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  
-  <title>小王的Bolg</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="小王的Bolg">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="小王的Bolg">
-<meta property="og:locale" content="zh">
-<meta property="article:author" content="Wang">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="小王的Bolg" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+    <meta name="author" content="Wang">
+
+
+    <meta name="subtitle" content="Python的入门到放弃">
+
+
+
+
+<title>烧酒的Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
 
 <meta name="generator" content="Hexo 4.2.1"></head>
-
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">小王的Bolg</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">学习</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Bentham&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Bentham&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-Linux介绍" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/07/27/Linux%E4%BB%8B%E7%BB%8D/" class="article-date">
-  <time datetime="2020-07-27T02:07:12.261Z" itemprop="datePublished">2020-07-27</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/27/Linux%E4%BB%8B%E7%BB%8D/">Linux介绍</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Linux操作系统</p>
-<h2 id="1-Linux介绍"><a href="#1-Linux介绍" class="headerlink" title="1. Linux介绍"></a>1. Linux介绍</h2><p>硬件：五大部件（运算器、控制器、存储器、输入设备、输出设备） —&gt; 裸机<br>软件：系统软件和应用软件</p>
-<p>操作系统：覆盖在硬件上的软件，用于提供人和计算机交互的接口（界面）</p>
-<p>个人操作系统：<code>Windows / macOS / Linux</code><br>服务器操作系统：商业化的<code>Unix / Solaris / Linux / Windows Server</code></p>
-<p><code>Unix ---&gt; Minix ---&gt; Linux ---&gt; Android</code><br><code>Unix ---&gt; BSD ---&gt; FreeBSD ---&gt; macOS ---&gt; iOS</code><br><code>Unix ---&gt; Solaris / Hp-Unix / AIX</code></p>
-<p><code>Linux ---&gt; Redhat ---&gt; CentOS</code><br><code>远程连接 ---&gt; SSH ---&gt; XShell / FinalShell</code></p>
-<p><code>没有GUI（图形用户界面） ---&gt; Shell（壳程序 - 人机接口）</code></p>
-<p><code>kernel ----&gt; Linux发行版本</code><br><code>Redhat / CentOS / Ubuntu / Debian / SUSE</code></p>
-<h2 id="2-指令"><a href="#2-指令" class="headerlink" title="2. 指令"></a>2. 指令</h2><p>命令格式：命令 [参数] [作用的对象]</p>
-<p>调出帮助文档<br>\1. 在命令后面加上–help参数<br>\2. 使用man命令获取帮助手册 —&gt; manual<br> <code>man mkdir</code></p>
-<p>查看历史命令：<code>history</code><br>清除历史命令：<code>history -c</code><br>执行历史命令：<code>!历史命令编号</code></p>
-<p>文件操作相关的命令<br><code>pwd</code> —&gt; print working directory —&gt; 显示当前工作目录<br><code>cd</code> —&gt; change directory —&gt; 切换目录（绝对路径/相对路径）<br><code>ls</code> —&gt; list directory contents —&gt; 列出文件夹下的内容<br> <code>-l</code>：长格式查看<br>  <code>-a</code>：查看所有文件（包括以点开头的隐藏文件和文件夹）<br><code>mkdir</code> —&gt; make directories —&gt; 创建文件夹<br> <code>-p</code>：创建父文件夹（如果不存在）<br><code>rmdir</code> —&gt; remove directory —&gt; 删除空文件夹<br><code>touch</code> —&gt; 创建空文件或者修改文件的最后访问时间<br><code>rm</code> —&gt; remove —&gt; 删除文件<br>  <code>-f</code>：（force）强制删除<br>  <code>-r</code>：（recursive）递归式删除（可以用来删除文件夹）<br><code>cat</code> —&gt; concatenate —&gt; 查看文件的内容<br>  <code>-n</code>：显示行号<br><code>head / tail</code> —&gt; 查看文件的开头和结尾<br>  -行数<br><code>more / less</code> —&gt; 逐页逐行查看文件内容<br><code>wc</code> —&gt; word count —&gt; 统计行数、单词数、字节数<br><code>iconv</code> —&gt; 转换文件编码 </p>
-<p><code>mv</code> —&gt; move —&gt; 移动文件 —&gt; 剪切<br><code>cp</code> —&gt; copy —&gt; 拷贝文件<br>  <code>-r</code>：（recursive）递归式拷贝（拷贝文件夹）</p>
-<p><code>file</code> —&gt; 查看文件属性</p>
-<p>压缩文件：<br><code>gzip / gunzip</code><br><code>xz -z / xz -d</code></p>
-<p><code>WinRAR</code> —&gt; 归档/解归档<br><code>WinZip</code> —&gt; 压缩/解压缩</p>
-<p>归档：把多个文件合并到一个文件中<br>解归档：把一个文件拆成多个文件<br><code>tar -cf html.tar *.html</code><br><code>tar -xf html.tar</code></p>
-<p><code>scp root@一台服务器的IP地址:/路径/文件名 \
-  root@另一台服务器的IP地址:/路径/文件名</code></p>
-<p><code>unicode</code>—&gt; 字符集（万国码）—&gt; 其中一种实现方式叫<code>utf-8</code></p>
-<p>常用快捷键：<br>Tab：自动补全命令或路径<br><code>Ctrl+u</code>：删除整行<br><code>Ctrl+w</code>：删除光标前面的单词<br><code>Ctrl+a</code>：光标回到行首<br><code>Ctrl+e</code>：光标去到行尾</p>
-<p>重定向：<br>  输出重定向：&gt;<br>    <code>echo apple &gt; fruits.txt</code><br>  追加输入重定向：&gt;&gt;<br>    <code>echo apple &gt;&gt; fruits.txt</code><br>   <code>echo banana &gt;&gt; fruits.txt</code><br>  错误输出重定向：<code>2&gt;</code><br>  输入重定向：<code>&lt;</code></p>
-<p>管道：| 操作系统提供的进程间通信的I/O通道<br>    前一个命令（进程）的输出作为下一个命令（进程）的输入</p>
-<p><code>sort fruits.txt | uniq -c</code></p>
-<h2 id="3-Web服务器"><a href="#3-Web服务器" class="headerlink" title="3. Web服务器"></a>3. Web服务器</h2><p>Web服务器：<code>Apache / Nginx</code><br>    启动<code>Nginx</code>服务（Web服务） —&gt; Web服务器<br>   <code>systemctl start nginx (CentOS 7.x)</code><br>    <code>service nginx start (CentOS 6.x)</code><br>    停止<code>Nginx</code>服务<br>   <code>systemctl stop nginx</code><br>    重启<br>    <code>systemctl restart nginx</code><br>   查看运行状态<br>    <code>systemctl status nginx</code><br>  设置/禁用开机自启<br>    <code>systemctl enable nginx</code><br>    <code>systemctl disable nginx</code></p>
-<p>查看网络状态 - <code>netstat -ntlp</code><br>  <code>-n</code>：地址和端口的数值<br> <code>-t：tcp</code><br>  <code>-l：listen</code> - 正在监听<br> <code>-p：process</code> - 显示进程信息</p>
-<p><code>CentOS</code>系统上如何安装软件和服务<br>\1. 使用包管理工具安装软件<br>    yum –&gt; Yellow dog Updater Modified<br>    搜索：<code>yum search nginx</code><br>    安装：<code>yum install -y nginx</code><br>    卸载：<code>yum erase -y nginx / yum remove -y nginx</code><br>    更新：<code>yum update nginx / yum update</code><br>    查看信息：<code>yum info nginx</code><br>    查看安装的所有软件包：<code>yum list installed</code></p>
-<h2 id="4-安装包"><a href="#4-安装包" class="headerlink" title="4. 安装包"></a>4. 安装包</h2><p>例子1：源代码构建安装Git<br>  ~ 下载源代码：<br>  <code>wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.27.0.tar.xz</code><br>  ~ 解压缩和解归档<br>  <code>xz -d git-2.27.0.tar.xz ---&gt; git-2.27.0.tar</code><br>  <code>tar -xf git-2.27.0.tar ---&gt; git-2.27.0（文件夹）</code><br>  ~ 安装前的准备工作<br> <code>cd git-2.27.0</code><br> <code>yum install -y libcurl libcurl-devel zlib zlib-devel</code><br>  <code>yum install -y gcc</code><br> <code>./configure --prefix=/usr/local</code><br>  ~ 编译源代码生成可执行程序<br> <code>make &amp;&amp; make install</code></p>
-<p> 例子2：源代码构建安装Python 3<br>  ~ 补充安装Python 3需要用到的依赖项<br>  <code>yum install -y zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel libdb4-devel libpcap-devel xz-devel libffi-devel</code><br>  ~ 下载和检查Python3的源代码<br> <code>wget ![img](file:///C:\Users\cm\AppData\Roaming\Tencent\QQ\Temp\%W@GJACOF(TYDYECOKVDYB.png)https://www.python.org/ftp/python/3.7.8/Python-3.7.8.tar.xz</code><br>  md5sum Python-3.7.8.tar.xz<br>  ~ 解压缩和解归档<br> <code>xz -d Python-3.7.8.tar.xz</code><br><code>tar -xf Python-3.7.8.tar</code><br>  ~ 安装前的准备工作<br>  <code>cd Python-3.7.8</code><br>  <code>./configure --prefix=/usr/local/python37 --enable-optimizations</code><br>  ~ 构建和安装<br>  <code>make &amp;&amp; make install</code><br>  ~ 配置PATH环境变量<br> <code>vim /etc/bashrc</code><br>  —&gt; Go<br> <code>export PATH=$PATH:/usr/local/python37/bin</code><br>  —&gt; <code>Esc ZZ</code><br>  ~ 检查是否安装成功<br>  退出登录，重新登录，激活PATH环境变量<br>  <code>python3 --version</code><br> <code>pip3 --version</code></p>
-<p><code>mysql</code> 安装</p>
-<p>创建 <code>touch mysql</code>文件夹</p>
-<p>解压文件在<code>mysql</code>文件夹</p>
-<p><code>tar -xvf mysql-5.7.31-1.el7.x86_64.rpm-bundle.tar -C mysql</code></p>
-<p>先卸载<code>mariadb</code></p>
-<p><code>yum erase mariadb</code></p>
-<p>进入 <code>mysql</code></p>
-<p>安装</p>
-<p><code>rpm -ivh mysql-community-common-5.7.31-1.el7.x86_64.rpm</code></p>
-<p><code>rpm -ivh mysql-community-libs-5.7.31-1.el7.x86_64.rpm</code></p>
-<p><code>rpm -ivh mysql-community-libs-compat-5.7.31-1.el7.x86_64.rpm</code></p>
-<p><code>rpm -ivh mysql-community-devel-5.7.31-1.el7.x86_64.rpm</code></p>
-<p><code>rpm -ivh mysql-community-client-5.7.31-1.el7.x86_64.rpm</code></p>
-<p>补包</p>
-<p><code>yum install -y libaio</code></p>
-<p><code>rpm -ivh mysql-community-server-5.7.31-1.el7.x86_64.rpm</code></p>
-<p>查看安装的包</p>
-<p><code>rpm -qa | grep mysql</code></p>
-<p>启动</p>
-<p><code>systemctl start mysqld</code></p>
-<p>查看<code>mysql</code>运行</p>
-<p><code>systemctl status mysqld</code></p>
-<p>查看运行</p>
-<p><code>netstat -nplt</code></p>
-<p>连接<code>mysql</code></p>
-<p><code>mysql -u root -p</code></p>
-<p>输入密码</p>
-<p>初次密码在<code>cat /var/log/mysqld.log | grep password</code>中查询</p>
-<p><code>root@localhost: xv9M;tF(&gt;0+s</code></p>
-<p>再次登录</p>
-<p><code>mysql -u root -p</code></p>
-<p>修改密码</p>
-<p><code>alter user &#39;root&#39;@&#39;localhost&#39; identified by &#39;Xunmeng.1314&#39;;</code></p>
-<p>##5. Vim的使用</p>
-<p>工作模式：<br>命令模式<br>移动光标：<br><code>G</code>：最后一行<br><code>gg</code>：第一行<br>数字G：指定行<br>左下上右：h j k l<br>0：行首<br><code>$</code>：行尾<br>      ~ w：下一个单词<br>      ~ 下一页/上一页：<code>Ctrl+f / Ctrl+b</code><br>      ~ 下一行/上一行：<code>Ctrl+e / Ctrl+y</code><br>    编辑内容：<br>      ~ 删除行：<code>dd / 100dd</code><br>      ~ 删除到行首/行尾：<code>d0 / d$</code><br>      ~ 删除一个单词：<code>dw</code><br>      ~ 拷贝行：<code>yy / 10yy</code><br>      ~ 粘贴：<code>p</code><br>      ~ 撤销：<code>u</code><br>      ~ 恢复：<code>Ctrl+r</code><br>    保存退出<br>      ~ <code>ZZ</code><br>    进入编辑模式：<br>    <code>i / I / a / A / o / O</code><br>    进入末行模式：<br>     <code>: / ?</code><br>  ~ 编辑模式（插入模式）<br>    回到命令模式：<code>Esc</code><br>  ~ 末行模式（底线命令模式）<br>   <code>set nu / set nonu
-    set ts=4
-    set autoindent / set noautoindent
-    set expandtab
-    set ruler / set noruler
-    set hls / set nohls
-    w / q / wq / q! / q</code></p>
-<h2 id="6-权限"><a href="#6-权限" class="headerlink" title="6. 权限"></a>6. 权限</h2><p><code>-rw-r--r--</code> </p>
-<p>第一个  -  表示文件 d 表示文件夹  l 链接 表示快捷方式</p>
-<p>r w x 表示 r 读权限 w 写权限 x 执行权限 - 表示没有对应的权限</p>
-<p>第一组 表示文件所有者</p>
-<p>第二组 表示文件所有者同组用户</p>
-<p>第三组 表示其他用户</p>
-<p>##7. 脚本文件</p>
-<p>把Python程序改成可执行脚本</p>
-<p><code>#!/usr/local/python37/bin/python3</code></p>
-<p><code>chmod u+x,g+x,o+x</code> 文件名 —&gt; 添加执行权限<br><code>chmod 755</code> 文件名 —&gt; 添加执行权限</p>
-<p>设置PATH环境变量<br>export PATH=$PATH:/root/code</p>
-<p>创建符号链接（软链接） —&gt; 快捷方式<br><code>ln -s /usr/local/python37/bin/python3 /usr/bin/python3</code></p>
-<p>`#!/usr/bin/python3`</p>
-<p><code>inoremap _main if __name__ == &#39;__main__&#39;:</code><br><code>inoremap pr print(</code><br><code>map &lt;F4&gt; gg99999dd</code></p>
-<p>别名和取消别名</p>
-<p><code>alias &#39;lla=ls -la&#39;</code><br><code>alias &#39;rmf=rm -f&#39;</code></p>
-<p><code>unalias lla</code><br><code>unalias rmf</code></p>
-<p>vim多窗口操作<br>``:sp<code>---&gt; 水平拆分窗口</code>:vs<code>---&gt; 垂直拆分窗口</code>:ls<code>---&gt; 查看所有文件</code>:b <code>编号 ---&gt; 切换文件</code>double Ctrl+w<code>---&gt; 切换光标到下一个窗口</code>:qa<code>---&gt; 退出所有窗口</code></p>
-<h2 id="8-建立用户"><a href="#8-建立用户" class="headerlink" title="8. 建立用户"></a>8. 建立用户</h2><p><code>useradd name</code> 建立用户  </p>
-<p>建立用户在home 文件夹下  用户目录与用户名相同</p>
-<p><code>passwd name</code> 修改用户名称</p>
-<p><code>chown name path</code> </p>
-<p>修改文件的主用户</p>
-<p><code>chown -R name path</code></p>
-<p>修改文件及文件下所有文件的主用户</p>
-<p> <code>userdel -r name</code></p>
-<p>删除用户 删除用户后 文件属于用户主的文件 用户主改为1000 </p>
-<p><code>chage</code> 改变用户 和 密码的 过期时间</p>
-<p><code>chage -M 30 hellokitty</code>  –&gt;三十天后修改密码</p>
-<p><code>chage -d 0 hellokitty</code> –&gt; 下次登录需要修改密码</p>
-<p>切换用户</p>
-<p><code>su name</code> </p>
-<p>编辑超级管理权限文件</p>
-<p><code>visudo</code></p>
-<p><code>name ALL=(ALL) ALL</code></p>
-<p>修改文件后就可以让该用户使用超管理员指令</p>
-<p>普通用户使用超级管理指令</p>
-<p><code>su</code> 命令 </p>
-<p>用户之间互相发送消息</p>
-<p><code>write name</code> </p>
-<p>write wall 群发</p>
-<p>输入结束后 <code>ctrl + d</code> 结束 发送</p>
-<p>修改是否接受消息</p>
-<p><code>mesg n</code> 拒绝  <code>mesg y</code> 同意</p>
-<h2 id="9-git的使用"><a href="#9-git的使用" class="headerlink" title="9. git的使用"></a>9. git的使用</h2><p>在所需要版本控制的文件夹中执行 <code>git init</code>建立仓库</p>
-<p>执行代码 git status 查看当前状态</p>
-<p>执行代码 <code>git add</code> 文件 将需要版本控制的文件加入缓存区</p>
-<p>需要把所有的文件都加入到缓存区 <code>git add .</code></p>
-<p>确定需要加入到本地仓库中执行 <code>git commit -m &quot;项目提交的理由&quot;</code> 提交代码</p>
-<p>第一次提交需要设置 邮箱 用户</p>
-<p><code>git config --global user.email &#39;982346372@qq.com&#39;</code></p>
-<p><code>git config --global user.name &#39;wangchengmin&#39;</code></p>
-<p>输入 <code>git log</code> 查看提交记录 <code>git reflog</code></p>
-<p><code>git restore 文件名</code> 恢复 文件</p>
-<p><code>git reset --hard 版本号</code> 退回到版本号当时的内容 版本号在 <code>git log</code>中查看</p>
-<p>添加远端服务器<code>git remote add origin git@gitee.com:wang_chengmin/hellogit.git</code></p>
-<p>输入 <code>git remote -v</code>  查看远端仓库</p>
-<p><code>git remote remove origin</code> 删除远端服务器</p>
-<p>同步代码</p>
-<p>上推(把自己的代码同步到远端服务器)</p>
-<p>git push -u origin master</p>
-<p>下拉</p>
-<p>git pull </p>
-<p>查看冲突</p>
-<p><code>git diff</code></p>
-<p>查看后重新提交</p>
-<p>配置免密登录</p>
-<p><code>ssh-keygen -t rsa -b 2048 -C &quot;982346372@qq.com&quot;</code></p>
-<p>-t 是指定算法 -b 指定长度 </p>
-<p>会在/目录生成隐藏文件 .ssh文件夹</p>
-<p>.ssh 中 <code>id_rsa</code> 是本地密匙</p>
-<p>将 <code>id_rsa.pub</code>中的内容复制到 远端服务器中</p>
-<p>删除原有远端服务器 </p>
-<p>连接远端服务器 ssh连接</p>
-<p><code>git remote add origin git@gitee.com:wang_chengmin/hellogit.git</code></p>
-<p>git push -u origin master</p>
-<p>重新建立免密连接</p>
-<p>删除文件后从远端恢复</p>
-<p><code>git clone --depth=1  git@gitee.com:wang_chengmin/hellogit.git code</code></p>
-<p>–depth=1 是只下载最新版本  code 是指定文件夹</p>
-<p>查看分支</p>
-<p><code>git branch</code></p>
-<p>git branch -a</p>
-<p>创建分支</p>
-<p><code>git branch 分支名</code></p>
-<p>切换分支</p>
-<p><code>git switch 分支名</code></p>
-<p>合并分支</p>
-<p><code>git merge 分支名</code></p>
-<p>删除分支 </p>
-<p><code>git brench -d 分支名</code></p>
-<p><code>git brench -D 分支名</code></p>
-<p>提交新分支 建立关联</p>
-<p><code>git push -u origin hello: develop</code></p>
-<p>hello是新的分支 ：后是推上远端服务器的新名字</p>
-<h2 id="10-防火墙"><a href="#10-防火墙" class="headerlink" title="10. 防火墙"></a>10. 防火墙</h2><p>两个防火墙软件<code>iptables</code> ，<code>firewall</code></p>
-<h2 id="11-搭建博客"><a href="#11-搭建博客" class="headerlink" title="11.搭建博客"></a>11.搭建博客</h2><p><code>首先安装node npm git在node包中包括 npm</code></p>
-<p>安装 <code>hexo</code> </p>
-<p><code>npm install -g hexo</code></p>
-<p>创建博客文件夹</p>
-<p><code>hexo init bolg</code></p>
-<p>进入目录 安装配置项</p>
-<p><code>cd blog</code></p>
-<p><code>npm install</code></p>
-<p>将markdown转化成<code>html</code></p>
-<p><code>hexo g</code></p>
-<p>启动服务</p>
-<p><code>hexo s</code></p>
-
-      
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            
+    <div class="container">
+    <div class="intro">
+        <div class="avatar">
+            <a href="/archives"><img src="/image/avatar.jpeg"></a>
+        </div>
+        <div class="nickname">Jeremy Bentham</div>
+        <div class="description"><p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> <br>Fusce eget urna vitae velit <em>eleifend interdum at ac</em> nisi.</p>
+</div>
+        <div class="links">
+            
+                
+                    <a class="link-item" title="Blog" href="/archives">
+                        
+                        
+                            <i class="iconfont icon-blog"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="ZhiHu" href="https://www.zhihu.com/people/sirice" target="_blank" rel="noopener">
+                        
+                        
+                            <i class="iconfont icon-zhihu"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Instagram" href="">
+                        
+                        
+                            <i class="iconfont icon-instagram"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Reddit" href="">
+                        
+                        
+                            <i class="iconfont icon-reddit"></i>
+                        
+                    </a>
+                
+                    <a class="link-item" title="Github" href="https://github.com/Siricee" target="_blank" rel="noopener">
+                        
+                        
+                            <i class="iconfont icon-github"></i>
+                        
+                    </a>
+                
+            
+        </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/27/Linux%E4%BB%8B%E7%BB%8D/" data-id="ckd3vgb200000t4vxfbuba6s6" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+</div>
 
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/07/27/hello-world/" class="article-date">
-  <time datetime="2020-07-27T01:26:12.823Z" itemprop="datePublished">2020-07-27</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/27/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Wang | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/27/hello-world/" data-id="ckd3u19oi0000ugvx3mh61v2a" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/07/27/Linux%E4%BB%8B%E7%BB%8D/">Linux介绍</a>
-          </li>
-        
-          <li>
-            <a href="/2020/07/27/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 Wang<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
 </footer>
+
     </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
 </body>
 </html>
